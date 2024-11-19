@@ -48,7 +48,7 @@ public class Rechtschreibtrainer {
      */
     public boolean rateWort(String wort){
         this.versucheGesamt++;
-        if(wort.equals(this.ausgewaehltesPaar.getWort())){
+        if(wort.toLowerCase().equals(this.ausgewaehltesPaar.getWort().toLowerCase())){
             this.versucheRichtig++;
             this.waehleZufaelligesPaar();
             return true;
