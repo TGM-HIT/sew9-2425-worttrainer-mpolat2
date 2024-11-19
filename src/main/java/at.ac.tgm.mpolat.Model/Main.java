@@ -1,11 +1,15 @@
 package at.ac.tgm.mpolat.Model;
-
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+/**
+ * Klasse zum starten des Worttrainers
+ * @author Polat Enes
+ * @version 18.9.2024
+ */
 public class Main {
+    /**
+     * Mainmethode startet die GUI
+     * @param args Argumente
+     */
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
         GUI gui = new GUI();
         gui.start();
     }

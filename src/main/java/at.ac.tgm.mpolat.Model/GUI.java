@@ -89,4 +89,7 @@ public class GUI {
             return null; // Benutzer hat abgebrochen
         }
     }
+    public Rechtschreibtrainer getTrainer() {
+        return trainer;
+    }
 }
