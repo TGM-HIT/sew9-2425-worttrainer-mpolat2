@@ -1,5 +1,3 @@
-package at.ac.tgm.mpolat.Model;
-
 /**
  * Speicherstrategie-Interface für das Speichern und Laden von RechtschreibTrainer
  * @author Polat Enes

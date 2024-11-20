@@ -1,4 +1,3 @@
-package at.ac.tgm.mpolat.Model;
 /**
  * Klasse zum starten des Worttrainers
  * @author Polat Enes
@@ -10,7 +9,7 @@ public class Main {
      * @param args Argumente
      */
     public static void main(String[] args) {
-        GUI gui = new GUI();
+        View gui = new View();
         gui.start();
     }
 }

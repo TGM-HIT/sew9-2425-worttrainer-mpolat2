@@ -1,10 +1,8 @@
-package at.ac.tgm.mpolat.Model;
-
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import java.io.*;
 import java.lang.reflect.Type;
-import java.util.ArrayList;
+
 /**
  * JSON-Klasse, die die Speicherstrategie implementiert und
  * den RechtschreibTrainer in JSON speichert und lädt.

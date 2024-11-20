@@ -1,5 +1,3 @@
-package at.ac.tgm.mpolat.Model;
-
 import java.net.MalformedURLException;
 import java.net.URISyntaxException;
 import java.net.URL;

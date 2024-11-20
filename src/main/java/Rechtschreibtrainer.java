@@ -1,7 +1,4 @@
-package at.ac.tgm.mpolat.Model;
-
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Random;
 /**
  * Übernimmt die Logik des Wort checkens

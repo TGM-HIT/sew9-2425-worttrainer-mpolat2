@@ -1,5 +1,3 @@
-package at.ac.tgm.mpolat.Model;
-
 import javax.swing.*;
 import java.awt.*;
 import java.net.URL;
@@ -8,14 +6,14 @@ import java.net.URL;
  * @author Polat Enes
  * @version 18.9.2024
  */
-public class GUI {
+public class View {
     private Rechtschreibtrainer trainer;
     private Speicherstrategie speicher;
     private boolean firstguess;
     /**
      * Standartkonstruktor für die GUI. Trainer wird aus file geladen
      */
-    public GUI() {
+    public View() {
         speicher = new JSON();
         this.trainer = speicher.load();
         firstguess = true;
